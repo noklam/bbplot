@@ -1,10 +1,8 @@
 {
-  "Notebook": {
-    "Export to modules": "/export",
-    "Convert to html": "/export2html",
-    "Show doc": "/showdoc",
-    "Test functions": "/test",
-    "Core functions": "/core",
-    "Command line functions": "/cli"
+  "bbplot": {
+    "Overview": "/",
+    "[WIP] - bbc_plot": "/Installation",
+    "\"Recreating the BBC style graphic in Python - `plotnine` and `altair`\"": "/bbc_plot_with_plotnine_and_altair",
+    "Title": "/bbc_plot_with_altair"
   }
 }
