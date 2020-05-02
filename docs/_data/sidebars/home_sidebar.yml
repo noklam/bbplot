@@ -11,13 +11,22 @@ entries:
       url: /
     - output: web,pdf
       title: '[WIP] - bbc_plot'
-      url: /Installation
+      url: /bbplot
     - output: web,pdf
       title: '"Recreating the BBC style graphic in Python - `plotnine` and `altair`"'
       url: /bbc_plot_with_plotnine_and_altair
     - output: web,pdf
-      title: Title
-      url: /bbc_plot_with_altair
+      title: Line Plot
+      url: /line_chart
+    - output: web,pdf
+      title: Multilines Plot
+      url: /multiline_chart
+    - output: web,pdf
+      title: Stacked Bar Plot
+      url: /stackedbar_chart
+    - output: web,pdf
+      title: Grouped Bar Plot
+      url: /groupedbar_chart
     output: web
     title: bbplot
   output: web

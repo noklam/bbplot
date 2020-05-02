@@ -1,24 +1,34 @@
-# Project name here
-> Summary description here.
+# bbplot
+> Creating visualization with style with altair and plotnine.
 
 
-This file will become your README and also the index of your documentation.
+This project try to reproduce the visualization in the [BBC R cookbook] an(https://bbc.github.io/rcookbook/)  with Python. You can use the theme come with it to make your chart looks nicer.
 
-## Install
 
-`pip install your_project_name`
+
+`pip install bbplot`
 
 ## How to use
+Pick one library that you like.
+1. altair (if you have never use R before, I recommend altair as it can create interactive chart easily)
+2. plotnine (similar to ggplot2 in R)
 
-Fill me in please! Don't forget code examples:
+## plotnine
 
+## altair
+
+```python
+import altair as alt
+from bbplot.custom_theme import bbc_theme
+alt.themes.register("custom", bbc_theme)
+alt.themes.enable("custom")
 ```
-1+1
-```
 
 
 
 
-    2
+    ThemeRegistry.enable('custom')
 
 
+
+Add this 3 extra lines in your plot, it will style your charts automatically.
