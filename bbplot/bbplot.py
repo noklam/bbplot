@@ -3,11 +3,9 @@
 __all__ = ['bbc_style', 'bbc_style_altair']
 
 # Cell
-
 # plotnine is an implementation of ggplot
 import altair as alt
 from plotnine import theme, element_text, element_blank, element_line, element_rect
-
 
 def bbc_style():
     font = "Helvetica"
@@ -17,16 +15,16 @@ def bbc_style():
                                 weight="bold",
                                 color="#222222",
                                 ha='center',
-                                va='top'),
-        #       plot_subtitle=element_text(family=font,
-        #                                  size=22, plot_margin=(9, 0, 9, 0)), plot_caption=element_blank(),
-        legend_position="top",
-        legend_title_align=0,
+                                va='bottom',
+                                ),
+        legend_position="right",
+        legend_title_align='left',
         legend_background=element_blank(),
         legend_title=element_blank(),
         legend_key=element_blank(),
         legend_text=element_text(family=font, size=14, color="#222222"),
         axis_title=element_blank(),
+
         axis_text=element_text(family=font, size=14, color="#222222"),
         axis_text_x=element_text(margin={
             't': 5,

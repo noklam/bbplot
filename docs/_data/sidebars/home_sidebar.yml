@@ -27,6 +27,9 @@ entries:
     - output: web,pdf
       title: Grouped Bar Plot
       url: /groupedbar_chart
+    - output: web,pdf
+      title: Title
+      url: /Untitled
     output: web
     title: bbplot
   output: web

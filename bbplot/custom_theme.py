@@ -8,7 +8,6 @@ def bbc_theme():
     # Axes
     axisColor = "#000000"
     gridColor = "#DEDDDD"
-    # markColor= "#000000"
     # Colors
     main_palette = [
         "#1696d2",
@@ -32,8 +31,8 @@ def bbc_theme():
         # width and height are configured outside the config dict because they are Chart configurations/properties not chart-elements' configurations/properties.
         # "width": 512,  # from the guide
         # "height": 288,  # not in the guide
-        "width": 685, # from the guide
-        "height": 380, # not in the guide
+        "width": 650, # from the guide
+        "height": 450, # not in the guide
         "config": {
             "title": {
                 "fontSize": 28,
@@ -58,7 +57,6 @@ def bbc_theme():
                 "titleFont": font,
                 "titleFontSize": labelFontSize,
                 "titlePadding": 10,  # guessing, not specified in styleguide
-                # "title": "X Axis Title (units)",
             },
             "axisY": {
                 "domain": False,
@@ -73,15 +71,12 @@ def bbc_theme():
                 "titleFont": font,
                 "titleFontSize": labelFontSize,
                 "titlePadding": 10,  # guessing, not specified in styleguide
-                # "title": "Y Axis Title (units)",
                 # titles are by default vertical left of axis so we need to hack this
                 "titleAngle": 0,  # horizontal
                 "titleY": -11,  # move it up
                 "titleX": -3,  # move it to the right so it aligns with the labels
             },
                   "header": {
-                # "domain": False,
-   
                 "labelFontSize": 18,
                 "titleFontSize": 18,
             },
