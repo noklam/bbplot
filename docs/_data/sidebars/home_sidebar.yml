@@ -13,9 +13,6 @@ entries:
       title: '[WIP] - bbc_plot'
       url: /bbplot
     - output: web,pdf
-      title: '"Recreating the BBC style graphic in Python - `plotnine` and `altair`"'
-      url: /bbc_plot_with_plotnine_and_altair
-    - output: web,pdf
       title: Line Plot
       url: /line_chart
     - output: web,pdf
@@ -27,9 +24,6 @@ entries:
     - output: web,pdf
       title: Grouped Bar Plot
       url: /groupedbar_chart
-    - output: web,pdf
-      title: Title
-      url: /Untitled
     output: web
     title: bbplot
   output: web

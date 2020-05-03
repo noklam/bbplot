@@ -1,5 +1,5 @@
 # bbplot
-> Creating visualization with style with altair and plotnine.
+> Extending the base style plots in Python.
 
 
 This project try to reproduce the visualization in the [BBC R cookbook] an(https://bbc.github.io/rcookbook/)  with Python. You can use the theme come with it to make your chart looks nicer.

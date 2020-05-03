@@ -2,11 +2,9 @@
   "bbplot": {
     "Overview": "/",
     "[WIP] - bbc_plot": "/bbplot",
-    "\"Recreating the BBC style graphic in Python - `plotnine` and `altair`\"": "/bbc_plot_with_plotnine_and_altair",
     "Line Plot": "/line_chart",
     "Multilines Plot": "/multiline_chart",
     "Stacked Bar Plot": "/stackedbar_chart",
-    "Grouped Bar Plot": "/groupedbar_chart",
-    "Title": "/Untitled"
+    "Grouped Bar Plot": "/groupedbar_chart"
   }
 }
